@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Activity, HeartPulse, LayoutDashboard, CalendarDays, Users, Stethoscope, Settings, LogOut, Menu, X, Search, Bell, ShieldCheck, Clock3, CheckCircle2, XCircle, UserRound, Plus, RefreshCw, ChevronRight, ClipboardList, Hospital, CalendarCheck, UserCheck } from 'lucide-react';
+import { Activity, HeartPulse, LayoutDashboard, CalendarDays, Users, Stethoscope, Settings, LogOut, Menu, X, Search, Bell, ShieldCheck, Clock3, CheckCircle2, XCircle, UserRound, Plus, ChevronRight, RefreshCw, CalendarCheck } from 'lucide-react';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = (import.meta.env.VITE_API_URL || 'https://medicore-hms-phs2.vercel.app') + '/api';
 const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const DEMOS = [
   ['Admin','admin@medicore.demo'], ['Doctor','doctor@medicore.demo'],
